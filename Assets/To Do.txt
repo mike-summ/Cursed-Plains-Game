@@ -1,0 +1,27 @@
+Things to complete:
+- Make background for caves etc.
+- Put elevators and enemies in later area
+- Fix weird General interactions with the player jumping
+- Doors and Keys
+- Test NPCs
+	- 2 frame animation
+	- dialogue
+- Main Menu texture
+- Main Menu logo
+- House texture (village)
+- Tents (inside the cave)
+- Enemy textures 
+- General textures
+- Prince texture
+- Autumn colour pallette for next area
+
+
+
+
+DONE:
+- Make elevators able to be turned on or off.
+	- Be able to activate again after 	clicking the switch.
+- Fix Enemy weird hitboxes
+- Tree
+- Death fade to black
+	- New scene that loads back in.

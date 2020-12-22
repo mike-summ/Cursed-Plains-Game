@@ -1,0 +1,141 @@
+General Ideas for my game!!
+
+How to surpise the player...
+- Hide specific information from them. There should be a twist.
+- Spice up gameplay with small minigames that hold meaning.
+- Mini quests that envoke the core themes of revenge and family.
+
+Killing enemies fills your Meter, which can be used to heal yourself.
+
+1) The war has finished and the Kingdom has won. But the land and people have all suffered greatly regardless. 
+
+2) Two twins with magical qualities are in hiding. You have to prove yourself to them that you won't cause harm to them by finding a flower.
+   Once you've proved yourself, they will give you advice as well as explain their situation. You will meet them later on.
+
+3) There is a text adventure game when you kill the second major boss where you peer into her final thoughts. She remincises her life. How the King,
+   saw her affinity with the magical arts and used her to make the masks. With these masks, the King destroyed the opposition and won the war. She
+   tells of how people hated her. She didn't understand why as she had helped. But the people hated her kind, they hated magic. The King covered
+   up the fact that magic was used to save face. They threw rocks at her, they spat on her, they pulled at her hair. So the King gave her a veil,
+   to cover the colour. The King cared for her and she doesn't care if it was only because of the abilities she had. She goes on to describe her death.
+
+4) A man who has lost both his legs as well as his sight from the war. He asks if you can carry him back to his family. You can't attack, wall jump 
+   or double jump while carrying him so traversing the area can be dangerous. If you die while carrying him he will die for you. You expect to see
+   a loving family but what you get is a rundown group of people who the man wrongly assumes is his family.
+
+5) In the area before the witch, you will meet the twins again. They will appear curious about your mask as they can sense its powerful magic. After
+   you get the third mask, you can give them flowers to upgrade your magic. After 5 flowers, they will send you on a quest to find a very special
+   flower hidden away. It can supposedly cure any illness. "Find it and you will forever be in my debt". The flower is hidden in the forest area
+   behind an optional boss. Bringing it back will cause the twins to help you in the next fight with the King's son.
+
+6) An old man who asks you about your quest of revenge. Comments on the futility of your actions and whether you actually want to kill all these
+   people. He sees the mask she wears and asks if that's to hide the pained face when you kill. Emily gets angry, and for the few times in the game 
+   she actually responds back. This encounter should connect the player and Emily, as the player has been told to take revenge and Emily has had the 
+   mask given to her.
+
+7) You see a boy who begs for your help as his parents are being attacked by some soldiers. These soldiers look particularly different as they are
+   rouge and have pulled the King's banner from their armour. You have 45 seconds to help them if you agree. If you refuse or don't make it in time
+   the parents will be killed supposedly for having magical abilities. They went rougue because the King was revealed to have used witchcraft to
+   win the war. If the parents have been killed, the boy will cry at their feet and curse both you and the rouge soldiers. Otherwise, the parents
+   will gift you a family trinket. It has no magical qualities. If the parents are dead, you can pull a sword out of the father's corpse. It is
+   incredibly powerful. Pulling it out will enrage the boy and you will have to fight him.
+
+Player expectation: The King killed your family because your village holds a Mask.
+Subversion: The King killed your family because of a prophecy that a peasant will use the Masks to kill his family.
+
+Design principles for Emily:
+- She should be small and lithe. But also cute and innocent to shock the player more as blood appears on her sprite and she kills more often.
+- She has a fascination with flowers as there aren't many in her village. 
+- All the masks have their own emotions that impact the user. As all magic is entwined with emotion.
+
+Item descriptions should show the change in mentality of Emily. As they become vaguer and more focused of how useful they are in her goal of getting
+her revenge. Something akin to - "An old family trinket. No unique abilities whatsoever. Does not help me kill the King."
+
+"Look at you, you poor thing. This isn't what you want. You can be better than this." - The wise old man.
+
+8) When Emily has defeated the King and has her blade against his throat she hesitates. This is where the player themselves can choose to kill the
+   King or spare him. If you choose spare it will continually ask you why you are sparing the King. The easy option is to press the Kill option
+   and end the interaction but to players who did all the side quests and were tired of killing everything will persevere and keep on pressing
+   the spare button. This is where you will get the good ending, where Emily realises what kind of person she has become. 
+
+
+HOW ENEMIES WORK
+
+Enemies have health and poise. When an enemies poise is broken their attacks deal less damage and the player deals more damage.
+Attacking reduces poise but blocking reduces even more poise.
+
+Being attacked while blocking still deals chip damage but blocking the moment an attack lands deals no chip damage and allows for an attack 
+followup with increased damage. Attacking immediately after parrying an attack deals 1.5x damage.
+
+Attacking fills up a meter that when full, allows you to heal. Encourages the player to attack more.
+
+States:
+Sitting/Idle - Enemy remains still until they are alerted by the player
+Roaming - They move from left to right until they meet an edge or a wall and then turn around.
+Alert - They'll move in the direction of the player and attack.
+Stun - For a period of time the enemy becomes unaware of the player.
+
+If a player attacks an enemy that's unalert, it deals double the damage.
+
+Slammming deals a lot of poise damage but only from a certain distance in the air. 
+
+Attack types:
+Light attack - Standard attack that deals light damage. 
+Heavy attack - Standard attack that deals a lot of damage. 
+Projectile - Thrown attack that can be blocked.
+
+The beginning of the game will show the prohecy, which the player will assumme applies to the MC, but it actually applies to the king.
+
+Enemy Ideas:
+Freesian Soldiers - Slow to attack, far reach.
+Traitors - Fast to attack, low reach.
+Anemonian Soldiers - Shoot fire.
+Zombies - Slow but deal high damage.
+Flying Creatures - Either fly around or shoot projectiles.
+
+Boss:
+Kings General - First Boss - Sent to kill your entire village. Killed by Emily.
+Corrupted Prince - Second Boss - The Kings son, imprisoned for his uncontrollable hatred for his adopted Sister. His imprisonment led to him being in close contact with the great Vitaeflore. 
+				   It corrupted him with great power and he lost his mind.
+				   (At half health)"So alone... so very alone... oh mountain, kill them. Kill them all."
+				   (Upon putting on the mask)"Help me! Please Father, don't leave me here... the mountain... it speaks to me! It hurts! I try to cover my ears but the whispers won't yield. 
+				   "Father, please forgive me. Please love me."
+Freesian Witch (Annabelle) - Third Boss - The Kings adopted daughter. Used in the great war for her powerful abilities but now protects the great Vitaeflore which sutains the mountain and the Queen,
+				 who will die without it.
+				 (Upon entering)"Finally... you have come, I foretold of your visit. But no longer will Fate guide you. Die!"
+				 (Upon death)"No... Father, Mother. Run...!"
+The King - Final Boss
+Old Flosviri - Optional boss (if you decide to not kill the King)
+
+Unique interaction. If your fireball hits another fireball from another enemy, it makes a massive explosion dealing lots of damage. (3 points!!)
+
+Lore!
+
+The Anemonian and Freesian empires have been at war for centuries. This was due to old disagreements over the use of the Vitaeflore, a flower with supernatural qualities ranging from immortality
+to pyromancy. Finally, the Freesian empire won. But due to using the taboo Vitaeflore to win, discourse was spread across the Kingdom of Freesia and even the Prince himself was banished.
+
+The Anemonian "witches" are Anemonian woman with red hair. Their abilities are incredibly powerful and it is said that by peering into their flame they could forsee the future.
+This was mostly the reason why the Anemonians were winning the war against the Freesians. Once the Freesian King realised this, he quickly sought a witch to aid the Freesians. This witch would
+come to him as a frail little girl, orphaned and alone in a Freesian village. The King took her in and raised her as his own daughter. So much so that he eventually began to neglect his son.
+
+By sustaining an ancient Vitaeflore on the top of a mountain, the Freesian Witch was able to enhance her powers and forsee the future. It was there that the three masks were created.
+One for the Kings General, one for the Freesian Witch, the Prince, and finally the King himself. These masks would grant the user the power of the Vitaeflore and therefore pyromancy.
+
+The prince hated that his Father 'preferred' the witch more than him and even more so that her presence actually caused Freesians victory in the war. He refused to wear the mask and fought only
+with a sword as he was taught. As an act of defiance, the Prince left the mask with an Elder of a poor mining village.
+
+Driven by jealous rage, the Prince sought out to kill Annabelle but was quickly caught and was banished to the mountain. What nobody realised was that the Flower Annabelle used to enhance her
+powers (and eventually keep the Queen alive) had corrupted the Mountain, coiling every rook and cranny with its vines. Any being would quickly be drawn to the plant on instinct and eventually
+obsessed. The prince was no exception. By the time the main character meets him, it is already too late.
+
+This is where the story begins, with a prophecy. Annabelle has a prophecy that everyone dear to the King, including himself will die due to an unknown warrior. Despite having only just won a war,
+the King goes into restless panic and goes to great lengths to kill this unknown warrior. This warrior is described as 'masked'. Remembering that the Prince gave the mask to the mining village,
+the King sends his soldiers and General to burn down the village.
+
+This is where the main game starts.
+
+Evelyn gets out of the cave to find her entire village burning. She is told by the surviving Elder that she will avenge the Village and kill the King. To accomplish this task, she is given
+a Royal Mask, granting her the ability of pyromancy. Evelyn goes out through the Kingdom meeting random strangers, both Freesian and Anemonian on her journey to the King. The most notable people
+you meet are these red-headed twins. Like most Witches, they have the ability to forsee the future. Whats different about these ones is that they are the first NPCs to tell Evelyn that she doesnt
+have to kill the King.
+
+Throughout the whole game, you are told what to think. What others think of the King and what Evelyn should do. Its only at the very end does Eveyln have control over herself.
